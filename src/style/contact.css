@@ -1,0 +1,66 @@
+/* Ensure the body and html fill the screen */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/* The main container should fill the entire screen */
+.container-main {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Vertically center the content */
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* The container for the form */
+.fore-container {
+    background-color: white;
+     width: 70%;
+    padding: 20px; /* Adds some space around the form */
+    box-sizing: border-box; /* Ensures padding is included in the width calculation */
+}
+
+/* Form layout using flexbox */
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Adds space between form elements */
+}
+
+/* Style input fields */
+input {
+    padding: 10 15 10 15;
+    margin: 5px 0; /* Adds space between input fields */
+    width: 100%; /* Makes input fields take up the full width of the form */
+    background-color: rgb(250, 246, 246);
+    border: none;
+    border-radius: 10px;
+    height: 25px;
+}
+.msg{
+    padding-bottom: 100px;
+}
+.btn-sub{
+    padding: 10px;
+    background-color: orange;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.cont-title{
+    padding-left: 6px;
+}
+@media screen and (min-width:0px) and (max-width:750PX) {
+    .fore-container{
+        width: 90%;
+        margin-bottom: 350px;
+    }
+    
+}

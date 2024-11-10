@@ -1,0 +1,20 @@
+.social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.s-icons{
+    font-size: 35px;
+    color: red;
+    margin: 5px;
+}
+.s2-icons{
+    font-size: 35px;
+    color: blue;
+    margin: 5px;
+}
+.s3-icons{
+    font-size: 35px;
+    color: blueviolet;
+    margin: 5px;
+}
